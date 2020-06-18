@@ -43,7 +43,7 @@
         </div>
         <div class="row slogan-wrap fdc jcc">
           <h2
-            class="db slogan animate__animated animate__lightSpeedInLeft animate__fast"
+            class="db slogan wow animate__animated animate__lightSpeedInLeft animate__fast"
           >
             Enjoy Your <br />Minimalist Lifestyle.
           </h2>
@@ -57,7 +57,10 @@
       <section class="page-1 container mx-auto">
         <div class="row pb-32 jcsb">
           <div class="pic-0"></div>
-          <div class="title-wrap">
+          <div
+            class="title-wrap wow animate__animated animate__lightSpeedInRight animate__fast"
+            data-wow-duration="2s"
+          >
             <h2>Special Clays</h2>
             <h4>
               A general body formulation for contemporary earthenware is 25%
@@ -68,26 +71,127 @@
         </div>
         <div class="row pb-32 row-reserve">
           <div class="pic-1"></div>
-          <div class="title-wrap pr-30">
+          <div
+            class="title-wrap pr-30 wow animate__animated animate__lightSpeedInLeft animate__fast"
+            data-wow-duration="2s"
+          >
             <h2>Less is more</h2>
             <h4>
-                Trimming pottery can transform a weighty Earth-bound pot into one that is a pleasure to hold, look at, and use.
+              Trimming pottery can transform a weighty Earth-bound pot into one
+              that is a pleasure to hold, look at, and use.
             </h4>
             <a href="javascript:;">learn more</a>
           </div>
         </div>
         <div class="row pb-32">
           <div class="pic-2"></div>
-          <div class="title-wrap">
+          <div
+            class="title-wrap wow animate__animated animate__lightSpeedInRight animate__fast"
+            data-wow-duration="2s"
+          >
             <h2>Marvelous Detail</h2>
             <h4>
-                In Craftsman, the art director, working with marketers, develops or creates an idea of a new creation.
+              In Craftsman, the art director, working with marketers, develops
+              or creates an idea of a new creation.
             </h4>
             <a href="javascript:;">learn more</a>
           </div>
         </div>
       </section>
+      <section class="page-2">
+        <div class="container mx-auto h-100">
+          <div class="row aic h-100 jcsb">
+            <h2>
+              “I want to make the life more<br />
+              simple by crafts.”
+            </h2>
+            <ul class="director-wrap">
+              <li class="carrer">Art Director</li>
+              <li class="artname">hsiao-Ming Chen</li>
+              <li class="social-link">
+                <a href="javascript:;">Instagram</a
+                ><a href="javascript:;">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="page-3">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./images/1.jpg" alt="" />
+              <span class="onsale">on sale</span>
+              <div class="title">Tatami Cup</div>
+              <div class="value">
+                NT$1,080 <del><span>NT$1,200</span></del>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/2.jpg" alt="" />
+              <div class="title">Couple Collection</div>
+              <div class="value">
+                NT$2,800</del>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/3.jpg" alt="" />
+              <div class="title">Brotherhood Vase</div>
+              <div class="value">
+                NT$4,800
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/4.jpg" alt="" />
+              <div class="title">Baifan Bowl</div>
+              <div class="value">
+                NT$1,800</del>
+              </div>
+            </div>
+            <div class="swiper-slide"><img src="./images/5.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="./images/6.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="./images/7.jpg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <section class="page-4">
+          <div class="container">
+              <div class="row dfw">
+                  <h2>Subscribe for news<br> and special offers!</h2>
+                  <div class="sub-wrap mt-4">
+                      <input type="text" placeholder="Your email address" class="subscrib">
+                      <input type="submit" value="Subscribe" class="send">
+                  </div>
+              </div>
+          </div>
+      </section>
+      <footer>
+          <div class="container df jcsb mx-auto">
+              <ul class="copyright-wrap">
+                  <li class="pr-1">CRAFTsMAN</li>
+                  <li class="color-gray">© 2020. All Rights Reserved.</li>
+              </ul>
+              <ul class="policy-wrap">
+                  <li class="color-gray pr-4">Purchase Policy</li>
+                  <li class="color-gray pr-4">Privacy Policy</li>
+                  <li class="color-gray">Terms & Conditions</li>
+              </ul>
+          </div>
+      </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper(".swiper-container", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+      });
+    </script>
   </body>
 </html>
