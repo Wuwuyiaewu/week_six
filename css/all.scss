@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+}
+.row {
+  display: flex;
+  padding: 0 85px;
+}
+.df {
+  display: flex;
+}
+.db {
+  display: block;
+}
+.or-1 {
+  order: 1;
+}
+.or-2 {
+  order: 2;
+}
+.row-reserve {
+  flex-direction: row-reverse;
+}
+.dfw {
+  flex-wrap: wrap;
+}
+.fdc {
+  flex-direction: column;
+}
+.jcc {
+  justify-content: center;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsd {
+  justify-content: space-around;
+}
+.aic {
+  align-items: center;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.mt-2 {
+  margin-top: 24px;
+}
+.mt-4 {
+  margin-top: 48px;
+}
+.mr-4 {
+  margin-right: 48px;
+}
+.pn {
+  padding: 0;
+}
+.pt-4 {
+  padding-top: 48px;
+}
+.pr-4 {
+  padding-right: 48px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+.my-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.py-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+// page-0
+.page-0 {
+  background-image: url("../images/tom-crew-5HRCkrSs9Dk-unsplash-lg.jpg");
+  background-size: 625px 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  .logo-wrap {
+    a {
+      font-size: 24px;
+      line-height: 29px;
+      text-decoration: none;
+      color: #000;
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+  .menu {
+    display: flex;
+    color: #fff;
+  }
+  .slogan-wrap {
+    height: calc(100vh - 89px);
+    .slogan {
+      width: 100%;
+      font-size: 48px;
+      line-height: 64px;
+      font-weight: bold;
+    }
+    .min-descript {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .shownow {
+      width: 160px;
+      height: 56px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      background: #0e8a00 0% 0% no-repeat padding-box;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+}
+// page-1
+.page-1 {
+  margin-top: 72px;
+  .pic-0,
+  .pic-1,
+  .pic-2 {
+    width: 540px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .pic-0 {
+    background-image: url("../images/123.jpg");
+  }
+  .pic-1 {
+    background-image: url("../images/456.jpg");
+  }
+  .pic-2 {
+    background-image: url("../images/789.jpg");
+  }
+  .title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 125px;
+    width: 570px;
+    h2 {
+      width: 100%;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: bold;
+    }
+    h4 {
+      width: 100%;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    a {
+      width: 100%;
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration: none;
+      color: #0e8a00;
+    }
+  }
+}
